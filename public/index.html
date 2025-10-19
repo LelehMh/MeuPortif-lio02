@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Letícia Mariah</title>
+    <!-- Dependências Externas -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body class="bg-[#0d0d26] text-[#f0f0ff]">
+
+    <!-- Canvas para o fundo 3D - É o primeiro elemento do body -->
+    <canvas id="background-canvas"></canvas>
+
+    <!-- O contêiner principal onde TODO o conteúdo do portfólio será injetado pelo JavaScript -->
+    <div id="root">
+        <!-- Conteúdo Carregando... será substituído pelo JS -->
+    </div>
+
+    <!-- Script principal da aplicação, carregado como módulo -->
+    <script src="app.js" type="module"></script>
+</body>
+</html>
